@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="switch_preference_1"
+        android:title="Location updates"
+        android:summaryOff="Location isn't being tracked"
+        android:summaryOn="Location tracking on"/>
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="switch_preference_2"
+        android:title="GPS Power save"
+        android:summaryOff="Using Towers &amp; WIFI"
+        android:summaryOn="Using GPS sensors"/>
+</PreferenceScreen>

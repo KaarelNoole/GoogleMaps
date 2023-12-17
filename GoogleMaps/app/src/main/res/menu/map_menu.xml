@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addpolys"
+        android:title="@string/add_polyline"
+        android:onClick="AddPolyline"
+        />
+    <item
+        android:id="@+id/menuSettings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:onClick="onSettings"
+        android:title="@string/settings"
+        app:showAsAction="withText|ifRoom" />
+</menu>
